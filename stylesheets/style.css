@@ -1,7 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Snippet);
+
+
+
 h1 {
 	color: #d54d7b;
 	font-family: "Great Vibes", cursive;
-	font-size: 165px;
+	font-size: 58px;
 	line-height: 160px;
 	font-weight: normal;
 	margin-bottom: 0px;
@@ -10,17 +14,26 @@ h1 {
 	text-shadow:0 1px 1px #fff;
 }
 
+
+#textW{
+
+
+	width : 50% ;
+	margin-left: 25%;
+	/*padding: 1;*/
+}
 p {
 	color: #7a7c7f;
-	font-size: 29px;
-	font-family: "Libre Baskerville", serif;
-	line-height: 45px;
+	font-size: 20px;
+	line-height: 38px;
 	text-align: center;
 	text-shadow:0 1px 1px #fff;
-	padding-top:20px;
+	padding-top:10px;
+	font-family: "Snippet", sans-serif;
+
 }
 
-p.byline {
+/*p.byline {
 	font-style: italic;
 	color: #B6B6B6;
 	font-size: 24px;
@@ -28,8 +41,5 @@ p.byline {
 	text-align: center;
 	text-shadow: 0 1px 1px #fff;
 }
+*/
 
-#story {
-	font-family: "Snippet", sans-serif;
-
-}
